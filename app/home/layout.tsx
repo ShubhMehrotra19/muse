@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 import gsap from "gsap";
 import Sidebar from "@/components/sidebar/sidebar";
 import Image from "next/image";
@@ -33,7 +34,7 @@ function Layout({
     <section className="relative z-0">
       <nav className="flex justify-between items-center border-b-2 py-2">
         <div className="flex items-center">
-        <Image className=" cursor-pointer" src='/icons/muse.png' height={56} width={100} alt="logo" />
+        <Link href='/'><Image className=" cursor-pointer" src='/icons/muse.png' height={56} width={100} alt="logo" /></Link>
         <button
           onClick={toggleSidebarOpen}
           className="px-5 py-1 my-3 mx-5 rounded-md border-2 flex justify-center items-center border-blue-600 bg-blue-600 text-white font-semibold hover:bg-white hover:text-blue-600 active:scale-95 transition-all duration-300 ease-in-out"
