@@ -41,7 +41,7 @@ export default function Search() {
 
   return (
     <>
-      <div className="relative">
+      <div className="relative cursor-pointer">
         <input
           type="search"
           className={`search pl-[36px] rounded-full flex justify-center items-center border-2 p-1 h-[40px] w-[40px] ${

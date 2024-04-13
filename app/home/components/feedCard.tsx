@@ -24,7 +24,7 @@ function FeedCard(props: Props) {
                 </div>
                 <p className='font-semibold text-md text-slate-700'>14h ago</p>
             </div>
-            <div className='mb-3 text-center'>
+            <div className='mb-3 text-justify px-2 leading-snug'>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi id porro aut enim magni, dolores hic reiciendis corporis. Quo esse incidunt officia non ratione quaerat?</p>
             </div>
             <Image className='rounded-md mb-5 w-full h-[200px] object-cover cursor-pointer' src='https://images.pexels.com/photos/670720/pexels-photo-670720.jpeg?auto=compress&cs=tinysrgb&w=400' height={250} width={400} alt='image' />
