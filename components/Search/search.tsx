@@ -3,7 +3,7 @@ import gsap from "gsap";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-export default function Cursor() {
+export default function Search() {
   const [isClicked, setIsClicked] = useState(false);
 
   useEffect(() => {
@@ -44,8 +44,8 @@ export default function Cursor() {
       <div className="relative">
         <input
           type="search"
-          className={`search pl-10 rounded-full flex justify-center items-center border-2 p-1 m-5 h-[40px] w-[40px] ${
-            isClicked ? "focus pl-10" : "cursor-pointer"
+          className={`search pl-[36px] rounded-full flex justify-center items-center border-2 p-1 h-[40px] w-[40px] ${
+            isClicked ? "focus" : "Search-pointer"
           }`}
           placeholder="Search.."
         />
@@ -55,7 +55,7 @@ export default function Cursor() {
           alt=""
           height={30}
           width={30}
-          className="absolute top-1/2 transform -translate-y-1/2 left-[25px] cursor-pointer"
+          className="absolute top-1/2 transform -translate-y-1/2 left-[8px] Search-pointer"
         />
       </div>
     </>
