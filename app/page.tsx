@@ -75,7 +75,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main ref={scrollRef}>
+    <main ref={scrollRef} style={{backgroundColor: "black" }}>
       <Intro />
       <section className='scroll-section-outer' ref={triggerRef}>
         <div className='scroll-section-inner' ref={sectionRef}>
