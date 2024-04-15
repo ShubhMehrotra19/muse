@@ -6,7 +6,7 @@ function FriendSuggestion(props: Props) {
   const {} = props;
 
   return (
-    <div>
+    <div className='select-none'>
     <div className='mb-1 w-full '><p className='text-base font-semibold text-slate-600'>Friend Suggestions...</p></div>
     <div className='border-2 border-slate-300/70 rounded-md py-1'>
       <div className="flex flex-col items-center">
