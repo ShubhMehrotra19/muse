@@ -11,8 +11,14 @@
   "dependencies": {
     "@mantine/core": "^7.8.0",
     "@mantinex/mantine-logo": "^1.0.1",
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-slot": "^1.0.2",
     "@studio-freight/lenis": "^1.0.42",
     "@tabler/icons-react": "^3.2.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
     "framer-motion": "^11.0.28",
     "gsap": "^3.12.5",
     "install": "^0.13.0",
@@ -22,7 +28,9 @@
     "npm": "^10.5.2",
     "react": "^18",
     "react-dom": "^18",
-    "sass": "^1.75.0"
+    "sass": "^1.75.0",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/locomotive-scroll": "^4.1.3",
