@@ -43,6 +43,7 @@ function Layout({
         </div>
         <div className="flex justify-between gap-3 items-center mx-5">
           <Search />
+          <Link href='/profile'>
           <Image
             src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=600"
             className="object-cover rounded-full h-[50px] w-[50px] cursor-pointer hover:scale-[102%] transition-all duration-300 ease-in-out"
@@ -50,6 +51,7 @@ function Layout({
             width={50}
             height={50}
           />
+          </Link>
         </div>
       </nav>
       {isClicked && <Sidebar />}

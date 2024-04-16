@@ -39,7 +39,7 @@ function Sidebar() {
             Analytics
           </p>
         </Link>
-        <Link href="#">
+        <Link href="/profile">
           <p className="text-white font-semibold text-xl hover:text-slate-200 hover:translate-x-2 hover:scale-[102%] transition-all duration-300 ease-in-out active:scale-95">
             Profile
           </p>
@@ -51,7 +51,7 @@ function Sidebar() {
         </Link>
         <Link href="#">
           <p className="text-white font-semibold text-xl hover:text-slate-200 hover:translate-x-2 hover:scale-[102%] transition-all duration-300 ease-in-out active:scale-95">
-            Recommend
+            Muse Website
           </p>
         </Link>
       </div>
