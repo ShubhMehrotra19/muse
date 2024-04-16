@@ -32,7 +32,7 @@ import {
 
 export default function Page() {
   return (
-    <div className="flex w-full flex-col">
+    <div className="flex w-full flex-col select-none">
       <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
         <div className="grid gap-4 md:grid-cols-2 md:gap-8 lg:grid-cols-4">
 
@@ -102,7 +102,7 @@ export default function Page() {
                   Know your most recent songs listened.
                 </CardDescription>
               </div>
-              <Button asChild size="sm" className="ml-auto gap-1">
+              <Button asChild className="ml-auto gap-1">
                 <Link href="#">
                   View All
                   <ArrowUpRight className="h-4 w-4" />
@@ -215,7 +215,7 @@ export default function Page() {
           </Card>
           <Card x-chunk="dashboard-01-chunk-5">
             <CardHeader>
-              <CardTitle>Recent Sales</CardTitle>
+              <CardTitle>Know More people like you!</CardTitle>
             </CardHeader>
             <CardContent className="grid gap-8">
               <div className="flex items-center gap-4">
@@ -231,7 +231,7 @@ export default function Page() {
                     olivia.martin@email.com
                   </p>
                 </div>
-                <div className="ml-auto font-medium">+$1,999.00</div>
+                <div className="ml-auto font-medium px-4 py-1 rounded-md bg-blue-600 text-white hover:bg-blue-700 active:scale-95">Follow</div>
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
@@ -246,7 +246,7 @@ export default function Page() {
                     jackson.lee@email.com
                   </p>
                 </div>
-                <div className="ml-auto font-medium">+$39.00</div>
+                <div className="ml-auto font-medium px-4 py-1 rounded-md bg-blue-600 text-white hover:bg-blue-700 active:scale-95">Follow</div>
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
@@ -261,7 +261,7 @@ export default function Page() {
                     isabella.nguyen@email.com
                   </p>
                 </div>
-                <div className="ml-auto font-medium">+$299.00</div>
+                <div className="ml-auto font-medium px-4 py-1 rounded-md bg-blue-600 text-white hover:bg-blue-700 active:scale-95">Follow</div>
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
@@ -276,7 +276,7 @@ export default function Page() {
                     will@email.com
                   </p>
                 </div>
-                <div className="ml-auto font-medium">+$99.00</div>
+                <div className="ml-auto font-medium px-4 py-1 rounded-md bg-blue-600 text-white hover:bg-blue-700 active:scale-95">Follow</div>
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
@@ -291,7 +291,7 @@ export default function Page() {
                     sofia.davis@email.com
                   </p>
                 </div>
-                <div className="ml-auto font-medium">+$39.00</div>
+                <div className="ml-auto font-medium px-4 py-1 rounded-md bg-blue-600 text-white hover:bg-blue-700 active:scale-95">Follow</div>
               </div>
             </CardContent>
           </Card>
