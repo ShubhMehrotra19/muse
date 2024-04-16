@@ -50,8 +50,7 @@ function Layout({
             alt="logo"
             width={50}
             height={50}
-          />
-          </Link>
+          /></Link>
         </div>
       </nav>
       {isClicked && <Sidebar />}

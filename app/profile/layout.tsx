@@ -46,7 +46,7 @@ function Layout({
           <Link href='/profile'>
           <Image
             src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=600"
-            className="object-cover rounded-full h-[50px] w-[50px] cursor-pointer hover:scale-[102%] transition-all duration-300 ease-in-out"
+            className="object-cover rounded-full h-[50px] w-[50px] cursor-pointer hover:scale-[102%] transition-all duration-300 ease-in-out ring-4 ring-blue-500/40"
             alt="logo"
             width={50}
             height={50}
