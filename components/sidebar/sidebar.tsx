@@ -24,7 +24,7 @@ function Sidebar() {
         Close
       </button>
       <div className="flex flex-col justify-start items-start gap-8 mb-60">
-        <Link href="#">
+        <Link href="/home">
           <p className="text-white font-semibold text-xl hover:text-slate-200 hover:translate-x-2 hover:scale-[102%] transition-all duration-300 ease-in-out active:scale-95">
             Home
           </p>
@@ -34,7 +34,7 @@ function Sidebar() {
             Explore
           </p>
         </Link>
-        <Link href="#">
+        <Link href="/dashboard">
           <p className="text-white font-semibold text-xl hover:text-slate-200 hover:translate-x-2 hover:scale-[102%] transition-all duration-300 ease-in-out active:scale-95">
             Analytics
           </p>
